@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com-outsystems-iPhoneOnly" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>iPhoneOnlyPlugin</name>
+    
+    <platform name="ios">
+      <preference name="Deployment Target" default="iphone" />
+      <preference name="target-device" default="handset" />
+
+      <hook type="after_plugin_install" src="hooks/iphoneOnlyBuild.js" />
+      <hook type="after_prepare" src="hooks/iphoneOnlyBuild.js" />
+      <hook type="before_build" src="hooks/iphoneOnlyBuild.js" />
+
+    </platform>
+</plugin>

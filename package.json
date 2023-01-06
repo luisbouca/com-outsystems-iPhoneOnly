@@ -1,0 +1,15 @@
+{
+    "name": "com-outsystems-iPhoneOnly",
+    "version": "1.0.0",
+    "description": "",
+    "cordova": {
+      "id": "com-outsystems-iPhoneOnly",
+      "platforms": []
+    },
+    "keywords": [
+      "ecosystem:cordova"
+    ],
+    "author": "",
+    "license": "ISC"
+  }
+  
