@@ -19,7 +19,7 @@ module.exports = function (context) {
 
     const appName = appConfig.name()
 
-    const fileToChangePath = path.join(constants.SrcPath,appName+"xcodeproj","project.pbxproj");
+    const fileToChangePath = path.join(constants.SrcPath,appName+".xcodeproj","project.pbxproj");
     let content = fs.readFileSync(fileToChangePath,"utf8");
 
     const regexWkWebviewChanger = /TARGETED_DEVICE_FAMILY = "1,2"/gm;
